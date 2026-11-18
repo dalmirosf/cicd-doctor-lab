@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Code for the CICD Doctor lab: it fails on purpose."
 requires-python = ">=3.13"
 # requests is missing on purpose: src/labpkg/cli.py imports it (case py-modnf).
-dependencies = ["requests"]
+dependencies = []
 
 [dependency-groups]
 dev = ["pytest>=8"]
