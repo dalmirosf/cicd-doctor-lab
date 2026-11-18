@@ -1,10 +1,10 @@
 """Case py-modnf: requests is imported but not declared in pyproject.toml."""
 
-import requests
+import yaml
 
 
 def main() -> None:
-    print(requests.__version__)
+    print(yaml.__version__)
 
 
 if __name__ == "__main__":
