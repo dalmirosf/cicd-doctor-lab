@@ -5,7 +5,7 @@ Fails on purpose: do not fix. The live runbook edits one line of this file in a 
 
 
 def is_missing(value: object) -> bool:
-    return value == None
+    return value == None  # P3
 
 
 def is_present(value: object) -> bool:
