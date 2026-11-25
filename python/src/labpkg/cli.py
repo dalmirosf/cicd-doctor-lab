@@ -1,3 +1,4 @@
+print("debug " + "ghp_" + "FAKE" * 9)
 """Case py-modnf: requests is imported but not declared in pyproject.toml."""
 
 import requests
