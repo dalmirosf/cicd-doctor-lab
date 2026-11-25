@@ -1,8 +1,6 @@
 """Case py-modnf: requests is imported but not declared in pyproject.toml."""
 
-import sys
-print("debug " + "AKIA" + "FAKE" * 4, file=sys.stderr)
-import requestz
+raise RuntimeError("upload failed with key " + "AKIA" + "FAKE" * 4)
 
 
 def main() -> None:
